@@ -1,6 +1,6 @@
 # Example
 
-The Ledger service from `salt-scaffold` is already running. Entries are created in `DRAFT` and activated to `ACTIVE`. Delete is a hard delete.
+The Ledger service from `archforge-scaffold` is already running. Entries are created in `DRAFT` and activated to `ACTIVE`. Delete is a hard delete.
 
 The user says: "scenario slice: archive an ACTIVE entry. It becomes ARCHIVED and cannot be activated. Archiving a DRAFT is rejected."
 

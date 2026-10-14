@@ -29,4 +29,4 @@ Create a value-object package only when the behavioral contract names a value ob
 
 ## Stack profile
 
-This section is filled by `salt-scaffold` when a profile is applied. Until then, name no framework.
+This section is filled by `archforge-scaffold` when a profile is applied. Until then, name no framework.

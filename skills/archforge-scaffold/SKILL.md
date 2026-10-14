@@ -1,17 +1,17 @@
 ---
-name: salt-scaffold
+name: archforge-scaffold
 description: >
-  Scaffolds a runnable Go service on the SALT layering (cmd, domain,
+  Scaffolds a runnable Go service on the ArchForge layering (cmd, domain,
   application, delivery, infrastructure, pkg) with one sample aggregate,
   an in-memory adapter, a PostgreSQL GORM adapter, a JSON envelope, and
-  injected clock and id. Use when the user says "salt scaffold",
-  "scaffold service SALT", "buat boilerplate backend", or "buat service
+  injected clock and id. Use when the user says "ArchForge scaffold",
+  "scaffold service ArchForge", "buat boilerplate backend", or "buat service
   dengan adapter memori dan Postgres". Requires a contract-pyramid pack
   in the target project. Do not use to add a later feature, and do not
   use for a stack that has no profile in this skill.
 ---
 
-# salt-scaffold
+# archforge-scaffold
 
 Turn a finished `contract-pyramid` pack into a Go service that tests and builds. The sample aggregate is the one named in that pack. This skill runs once per service.
 

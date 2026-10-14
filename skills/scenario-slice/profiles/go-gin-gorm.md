@@ -1,6 +1,6 @@
 # Profile: go-gin-gorm
 
-Use this file when `AGENTS.md` names Go, Gin, and GORM. Paths match the tree `salt-scaffold` wrote. Replace `{{aggregate}}`, `{{Aggregate}}`, and `{{module}}` from that project.
+Use this file when `AGENTS.md` names Go, Gin, and GORM. Paths match the tree `archforge-scaffold` wrote. Replace `{{aggregate}}`, `{{Aggregate}}`, and `{{module}}` from that project.
 
 ## Where a scenario lands
 

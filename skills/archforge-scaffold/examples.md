@@ -2,7 +2,7 @@
 
 `contract-pyramid` already wrote the Ledger pack: aggregate Entry, module `example.com/ledger`, collection `entries`, table `ledger_entries`, port `8080`, hard delete, activate only from `DRAFT`.
 
-The user says: "salt scaffold". Go on the machine is 1.22 or newer. Profile `go-gin-gorm`.
+The user says: "ArchForge scaffold". Go on the machine is 1.22 or newer. Profile `go-gin-gorm`.
 
 ## Tree added
 

@@ -13,7 +13,7 @@ description: >
 
 # contract-pyramid
 
-Write the rules for a service before any feature code exists. The pack is the source of truth that `salt-scaffold` and `scenario-slice` read.
+Write the rules for a service before any feature code exists. The pack is the source of truth that `archforge-scaffold` and `scenario-slice` read.
 
 The pack is stack-agnostic. Name no web framework, ORM, or driver in the contracts. Record the persistence story as behavior: identity, uniqueness, timestamps, and whether delete removes the row.
 
@@ -83,4 +83,4 @@ If the user has no lifecycle, write the aggregate as stateless and leave the sta
 
 ## Handoff
 
-When the pack is in place, application code is a separate skill: `salt-scaffold` for a new service, `scenario-slice` for a later scenario. This skill does not write Go, Node, or Java files.
+When the pack is in place, application code is a separate skill: `archforge-scaffold` for a new service, `scenario-slice` for a later scenario. This skill does not write Go, Node, or Java files.

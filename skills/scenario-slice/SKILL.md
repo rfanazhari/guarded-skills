@@ -2,7 +2,7 @@
 name: scenario-slice
 description: >
   Adds one business scenario to a service that already has an AGENTS.md
-  contract pack and a SALT skeleton. Updates the scenario matrix and
+  contract pack and an ArchForge skeleton. Updates the scenario matrix and
   OpenAPI document, then the domain, a failing use case test, both
   repository adapters, the HTTP handler, and the composition root. Use
   when the user says "scenario slice", "tambah skenario", "tambah baris
@@ -17,7 +17,7 @@ Add one scenario to an existing service. One invocation is one `SC-NN` row, carr
 
 ## Before starting
 
-Read `AGENTS.md`. If it is missing, stop and tell the user to run `contract-pyramid`, then `salt-scaffold` when they also need a new codebase.
+Read `AGENTS.md`. If it is missing, stop and tell the user to run `contract-pyramid`, then `archforge-scaffold` when they also need a new codebase.
 
 Read the stack named in `AGENTS.md`. For Go, Gin, and GORM, follow [profiles/go-gin-gorm.md](profiles/go-gin-gorm.md). If `AGENTS.md` names a stack with no profile file here, stop and ask.
 
